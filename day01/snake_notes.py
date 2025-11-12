@@ -1,4 +1,4 @@
-import pygame, random
+import pygame
 
 # Initialize pygame
 pygame.init()
@@ -33,6 +33,7 @@ clock = pygame.time.Clock()
 # Set text
 
 # Set sounds and music
+pick_up_sound = pygame.mixer.Sound("pickup_sound.wav")
 
 # Set images (in this case, use simple rects...so just create their coordinates)
 # For a rectangle you need (top-left x, top-left y, width, height)
