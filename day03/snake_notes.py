@@ -1,4 +1,4 @@
-import pygame, random
+import pygame
 
 # Initialize pygame
 pygame.init()
@@ -130,7 +130,7 @@ while running:
     That's what our clock variable will do for us.  What until 20 frames have passed every second.  Then continue.  
     This is ticking the clock.   
     to tick the clock call the clock object's tick function passing in FPS
-    '''
+     '''
 
 # End the game
 pygame.quit()
