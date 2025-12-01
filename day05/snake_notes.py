@@ -1,4 +1,4 @@
-import pygame, random
+import pygame
 
 # Initialize pygame
 pygame.init()
@@ -100,7 +100,6 @@ while running:
     # This will essentially move all the snakes body by one position in the list
     # TODO: call body_coords's insert function passing in the index (0) and head_coord
     # TODO: call body_coords's pop function passing in no arguments.
-
     # Update the x,y position of the snakes head and make a new coordinate
     # TODO: add snake_dx 'TO' head_x
     # TODO: add snake_dy 'TO' head_y
@@ -110,7 +109,7 @@ while running:
     if head_rect.left < 0 or head_rect.right > WINDOW_WIDTH or head_rect.top < 0 or head_rect.bottom > WINDOW_HEIGHT or head_coord in body_coords:
         # TODO: call display_surface's blit function passing in game_over_text and game_over_rect
         # TODO: repeat for continue
-        # TODO: call pygame.display_update()
+        # TODO: call pygame.display.update()
 
         #Pause the game until the player presses a key, then reset the game
         # TODO: assign True to is_paused
